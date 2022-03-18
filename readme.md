@@ -1,10 +1,15 @@
 <p align="center">
   <img src="https://i.postimg.cc/cL2m4VV4/collab.jpg" alt="collab logo"/>
+ 
+</p>
+<p align="center">
+  <a href="co-llab.netlify.app">Live</a>
 </p>
 
 # {co:llab}
 
 {co:llab} is a space where users can create and organise events that focuses on collaborative programming. The web application is what our team created during School of Code's final four week project.
+
 
 ## The problem 
 
@@ -46,7 +51,7 @@ Start the development server
 
 ## Tech Stack
 
-**Client:** Next.js, Auth0, React.js, Chakra UI, EmailJs, CSS, HTML
+**Client:** Next.js, Auth0, React.js, Chakra UI, EmailJs, CSS, HTML, Figma
 
 **Server:** Node, Express, PostgreSQL
 
@@ -99,6 +104,12 @@ We decided that an agile methodology would be the approach for us as it would al
 ## Feedback
 
 If you have any feedback, please reach out to any of the team via GitHub. We really value feedback and hope that {co:llab} can continue growing.
+
+## Other links
+
+[Hi-fi mockup (Figma)](https://www.figma.com/file/tlDR8LHnAySnJorVYtf4Qo/hfbapp?node-id=9%3A160)
+
+[API repository](https://github.com/SchoolOfCode/final-project-api-hugs-for-bugs) 
 
 ## Authors
 
