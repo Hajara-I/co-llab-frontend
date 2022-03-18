@@ -3,7 +3,7 @@
  
 </p>
 <p align="center">
-  <a href="co-llab.netlify.app">Live</a>
+  <a href="https://co-llab.netlify.app">Live</a>
 </p>
 
 # {co:llab}
