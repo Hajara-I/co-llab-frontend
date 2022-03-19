@@ -1,5 +1,4 @@
 import { Button } from "@chakra-ui/react";
-import Link from "next/link";
 
 //use chakra 'button' component - choose
 //create export default function LargeButton - call different name than chakra button
@@ -10,7 +9,7 @@ import Link from "next/link";
 //set colour of font and background using color='brand.quaternary' for white text and bg='brand.primary' (for purple)
 //round off corners using borderRadius
 
-export default function SecondaryButton({ content, route }) {
+export default function SecondaryButton({ content }) {
   return (
     <Button
       bg="brand.primaryLight"
@@ -26,7 +25,7 @@ export default function SecondaryButton({ content, route }) {
         borderColor: "brand.primaryDark",
       }}
     >
-      <Link href={route}>{content}</Link>
+      {content}
     </Button>
   );
 }

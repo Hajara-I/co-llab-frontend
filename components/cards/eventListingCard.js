@@ -49,7 +49,6 @@ export default function EventListingCard({
   event_id,
   event_tags,
 }) {
-  console.log(event_tags);
   return (
     <Center py={6}>
       <Stack

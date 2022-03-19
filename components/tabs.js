@@ -17,7 +17,6 @@ export default function EventFilter({ payload, sendEventData }) {
   const guest = filterEvent(payload, "Guest Speaker");
   const code = filterEvent(payload, "Code Club");
   const hackathon = filterEvent(payload, "Hackathon");
-
   return (
     <Tabs
       align="center"

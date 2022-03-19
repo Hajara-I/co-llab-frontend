@@ -83,10 +83,7 @@ export default function Home() {
             </Box>
             <Box pt="1em">
               <a href={"#find-out-more"}>
-                <SecondaryButton
-                  content={"How it works"}
-                  route={"#find-out-more"}
-                />
+                <SecondaryButton content={"How it works"} />
               </a>
             </Box>
           </Flex>
@@ -113,7 +110,7 @@ export default function Home() {
         >
           <path
             fill="#f8f9fa"
-            fill-opacity="1"
+            fillOpacity="1"
             d="M0,192L80,170.7C160,149,320,107,480,106.7C640,107,800,149,960,154.7C1120,160,1280,128,1360,112L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
           ></path>
         </svg>

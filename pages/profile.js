@@ -42,7 +42,6 @@ export default function Profile({ userEvents, allEvents }) {
     } else username = user.nickname;
   }
   async function addUsertoEvent(event_id) {
-    console.log(true);
     if (user) {
       try {
         const response = await fetch(`${API_URL}/users`, {

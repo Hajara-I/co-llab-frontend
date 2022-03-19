@@ -28,7 +28,6 @@ export default function ContactUs() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form.current);
     emailjs
       .sendForm(
         "service_wuqdwm3",
@@ -89,14 +88,14 @@ export default function ContactUs() {
         >
           <form ref={form} onSubmit={sendEmail}>
             <FormLabel
-              for="firstname"
+              htmlFor="firstname"
               mt={4}
               width={{ sm: "100%", md: "300px", lg: "500px" }}
             >
               First Name
             </FormLabel>
             <Input name="firstname" isRequired id="firstname" />
-            <FormLabel for="lastname" mt={4}>
+            <FormLabel htmlFor="lastname" mt={4}>
               Last Name
             </FormLabel>
             <Input
@@ -105,7 +104,7 @@ export default function ContactUs() {
               isRequired
               className="lastname"
             />
-            <FormLabel for="email" mt={4} htmlFor="email">
+            <FormLabel htmlFor="email" mt={4}>
               Email address
             </FormLabel>
             <Input
@@ -115,7 +114,7 @@ export default function ContactUs() {
               isRequired
               className="email"
             />
-            <FormLabel for="subject" mt={4}>
+            <FormLabel htmlFor="subject" mt={4}>
               Subject
             </FormLabel>
             <Input name="subject" id="subject" isRequired className="subject" />
